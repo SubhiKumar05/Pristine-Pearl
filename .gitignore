@@ -4,6 +4,7 @@
 
 /node_modules
 .env
+/pristine_pearl/node_modules
 
 
 /.pnp
