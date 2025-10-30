@@ -56,7 +56,7 @@ const SignIn = () => {
     event.preventDefault();
 
     try {
-      const response = await fetch("https://pristine-pearl-api.vercel.app/signin", {
+      const response = await fetch("https://pristine-pearl.vercel.app/signin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
