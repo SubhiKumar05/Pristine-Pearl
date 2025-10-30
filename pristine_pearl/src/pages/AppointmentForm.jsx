@@ -46,7 +46,7 @@ const AppointmentForm = () => {
     }
 
     try {
-      const response = await axios.post('https://pristine-pearl-api.vercel.app/appointment', {
+      const response = await axios.post('https://pristine-pearl.vercel.app/appointment', {
         doctorId: formData.doctorId,
         doctorName: formData.doctorName,
         service: formData.service,
