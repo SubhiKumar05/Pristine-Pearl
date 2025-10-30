@@ -33,7 +33,7 @@ const ResetPassword = () => {
   const email = localStorage.getItem("resetEmail");
 
   try {
-    const res = await fetch("https://pristine-pearl-api.vercel.app/resetpassword", {
+    const res = await fetch("https://pristine-pearl.vercel.app/resetpassword", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
